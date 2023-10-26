@@ -7,6 +7,7 @@ Optical Flow Videos <br><br>
   <img src = "./assets/makeup_inverted_opt.gif" width = 250>
 </p>
 
+# Separate Stream
 
 | Model | Result (%) | 
 |:-------------------------------:|:--------:|
