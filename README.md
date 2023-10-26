@@ -22,9 +22,10 @@ Combined Stream S: (VGG16 + LSTM) + T: (DenseNet121 + LSTM)
 | Majority Voting for these 3 Late fusion models |  |
 
 Intermediate Fusion (Fusion inside Model) ()
-| Intermediate Fusion Methods | Result (%) | 
-|:---------------------------:|    |   |
-| Sum Fusion                  | -  |   | 
-| Max Fusion                  |    |   |
-| Concatenation Fusion        |    |   |
-| Convolution Fusion          |    |   |
+| Intermediate Fusion Methods | Result (%)  | 
+|:---------------------------:|-------------|
+| Sum Fusion                  |  -  |       | 
+| Max Fusion                  |     |       |
+| Concatenation Fusion        |     |       |
+| Convolution Fusion          |     |       |
+
