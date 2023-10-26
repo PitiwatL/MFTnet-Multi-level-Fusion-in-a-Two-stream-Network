@@ -8,3 +8,10 @@ Optical Flow Videos <br><br>
 </p>
 
 
+| Model | Result (%) | 
+|:-------------------------------:|:--------:|
+| Spatial Stream (VGG16)          | 88.51 | 
+| Temporal Stream (DenseNet121)   |  -  |  
+
+
+
