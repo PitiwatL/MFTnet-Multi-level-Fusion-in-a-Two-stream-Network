@@ -8,7 +8,6 @@ Optical Flow Videos <br><br>
 </p>
 
 Separate Stream
-
 | Model | Result (%) | 
 |:-------------------------------:|:--------:|
 | Spatial Stream  (VGG16 + LSTM)         | 88.51 | 
