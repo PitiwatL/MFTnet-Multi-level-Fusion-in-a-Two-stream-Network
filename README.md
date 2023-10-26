@@ -13,8 +13,10 @@ Separate Stream
 | Spatial Stream  (VGG16 + LSTM)         | 88.51 | 
 | Temporal Stream (DenseNet121 + LSTM)   |  -  |  
 
-Combined Stream
-| Late Fusion | Result (%) | 
-|:-------------------------------:|:--------:|
-| S: (VGG16 + LSTM) + T: (DenseNet121 + LSTM) | 88.51 | 
-
+Combined Stream S: (VGG16 + LSTM) + T: (DenseNet121 + LSTM)
+| Late Fusion Methods | Result (%) | 
+|:-----------:|:--------:|
+| Averaged Sum | - | 
+| Ridge Regression |  |
+| Multinomial Naive Bayes |  |
+| Majority Voting for these 3 Late fusion models | |
