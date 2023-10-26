@@ -11,7 +11,7 @@ Separate Stream
 | Model | Result (%) | 
 |:-------------------------------:|:--------:|
 | Spatial Stream  (VGG16 + LSTM)         | 88.51 | 
-| Temporal Stream (DenseNet121 + LSTM)   |  -  |  
+| Temporal Stream (DenseNet121 + LSTM)   | 87.27  |  
 
 Combined Stream S: (VGG16 + LSTM) + T: (DenseNet121 + LSTM)
 | Late Fusion Methods | Result (%) | 
