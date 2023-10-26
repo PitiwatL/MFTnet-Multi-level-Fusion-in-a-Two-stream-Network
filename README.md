@@ -7,12 +7,15 @@ Optical Flow Videos <br><br>
   <img src = "./assets/makeup_inverted_opt.gif" width = 250>
 </p>
 
-# Separate Stream
+Separate Stream
 
 | Model | Result (%) | 
 |:-------------------------------:|:--------:|
-| Spatial Stream (VGG16)          | 88.51 | 
-| Temporal Stream (DenseNet121)   |  -  |  
+| Spatial Stream  (VGG16 + LSTM)         | 88.51 | 
+| Temporal Stream (DenseNet121 + LSTM)   |  -  |  
 
-
+Combined Stream
+| Late Fusion | Result (%) | 
+|:-------------------------------:|:--------:|
+| S: (VGG16 + LSTM) + T: (DenseNet121 + LSTM) | 88.51 | 
 
