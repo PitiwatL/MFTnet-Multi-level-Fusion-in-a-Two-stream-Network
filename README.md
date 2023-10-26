@@ -19,4 +19,12 @@ Combined Stream S: (VGG16 + LSTM) + T: (DenseNet121 + LSTM)
 | Averaged Sum | - | 
 | Ridge Regression |  |
 | Multinomial Naive Bayes |  |
-| Majority Voting for these 3 Late fusion models | |
+| Majority Voting for these 3 Late fusion models |  |
+
+Intermediate Fusion (Fusion inside Model) ()
+| Intermediate Fusion Methods | Result (%) | 
+|:---------------------------:|    |   |
+| Sum Fusion                  | -  |   | 
+| Max Fusion                  |    |   |
+| Concatenation Fusion        |    |   |
+| Convolution Fusion          |    |   |
