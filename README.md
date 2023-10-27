@@ -1,14 +1,16 @@
-# Test
+# MFTnet
 The explanation is during in preparation....
 Optical Flow Videos <br><br>
-<div align="center">  
+<p align="center">  
   <img src = "./assets/rgb_makeup.gif" width = 250>
   <img src = "./assets/makeup_opt.gif" width = 250>
   <img src = "./assets/makeup_inverted_opt.gif" width = 250>
 </p>
-
+  
 ## Overall Architecture of MFTnet
-<img src = "./assets/OverallNet.jpg" width = 600>
+<p align="center"> 
+  <img src = "./assets/OverallNet.jpg" width = 600>
+</p>
 
 ## Results
 Separate Stream
