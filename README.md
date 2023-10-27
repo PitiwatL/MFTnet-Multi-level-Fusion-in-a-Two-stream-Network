@@ -1,5 +1,5 @@
 # Test
-The code is during in preparation....
+The explanation is during in preparation....
 Optical Flow Videos <br><br>
 <div align="center">  
   <img src = "./assets/rgb_makeup.gif" width = 250>
