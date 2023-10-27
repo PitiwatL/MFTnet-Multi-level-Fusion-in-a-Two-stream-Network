@@ -7,10 +7,10 @@ Optical Flow Videos <br><br>
   <img src = "./assets/makeup_inverted_opt.gif" width = 250>
 </p>
 
-# Overall Architecture of MFTnet
-<img src = "./assets/OverallNet.jpg" width = 400>
+Overall Architecture of MFTnet
+<img src = "./assets/OverallNet.jpg" width = 600>
 
-# Results
+Results
 Separate Stream
 | Model | Accuracy (%) | 
 |:-------------------------------:|:--------:|
