@@ -7,14 +7,18 @@ Optical Flow Videos <br><br>
   <img src = "./assets/makeup_inverted_opt.gif" width = 250>
 </p>
 
+# Overall Architecture of MFTnet
+<img src = "./assets/OverallNet.jpg" width = 400>
+
+# Results
 Separate Stream
-| Model | Result (%) | 
+| Model | Accuracy (%) | 
 |:-------------------------------:|:--------:|
 | Spatial Stream  (VGG16 + LSTM)         | 88.51 | 
 | Temporal Stream (DenseNet121 + LSTM)   | 87.27  |  
 
 Combined Stream S: (VGG16 + LSTM) + T: (DenseNet121 + LSTM)
-| Late Fusion Methods | Result (%) | 
+| Late Fusion Methods | Accuracy (%) | 
 |:-----------:|:--------:|
 | Averaged Sum | - | 
 | Ridge Regression |  |
@@ -22,7 +26,7 @@ Combined Stream S: (VGG16 + LSTM) + T: (DenseNet121 + LSTM)
 | Majority Voting for these 3 Late fusion models |  |
 
 Intermediate Fusion (Fusion inside Model) ()
-| Intermediate Fusion Methods | Result (%)  | 
+| Intermediate Fusion Methods | Accuracy (%)  | 
 |:---------------------------:|-------------|
 | Sum Fusion                  |  -  |       | 
 | Max Fusion                  |     |       |
