@@ -14,10 +14,13 @@ Optical Flow Videos <br><br>
 
 ## Results
 Separate Stream
-| Model | Accuracy (%) | 
-|:-------------------------------:|:--------:|
-| Spatial Stream  (VGG16 + LSTM)         | 88.51 | 
+<p align="center"> 
+  
+|   Model   | Accuracy (%) | 
+|:---------:|:------------:|
+| Spatial Stream  (VGG16 + LSTM)         | 88.51  | 
 | Temporal Stream (DenseNet121 + LSTM)   | 87.27  |  
+</p>
 
 Combined Stream S: (VGG16 + LSTM) + T: (DenseNet121 + LSTM)
 | Late Fusion Methods | Accuracy (%) | 
