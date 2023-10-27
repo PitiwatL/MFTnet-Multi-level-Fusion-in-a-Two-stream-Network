@@ -13,10 +13,10 @@ VggFirstHalf = vgg16.features[0:21].to(device)
 Densenet121 = models.densenet121(pretrained = True)
 Densenet121.classifier = nn.Linear(Densenet121.classifier.in_features, 512)
 DensePart = nn.Sequential(Densenet121.features[0:4], 
-                            Densenet121.features.denseblock1).to(device) 
+                          Densenet121.features.denseblock1).to(device) 
 
 VggSecondHalf1 = nn.Sequential(vgg16.features[21:],
-                                vgg16.avgpool).to(device)
+                              vgg16.avgpool).to(device)
 VggSecondHalf2 = vgg16.classifier.to(device)
 
 ############################################################
