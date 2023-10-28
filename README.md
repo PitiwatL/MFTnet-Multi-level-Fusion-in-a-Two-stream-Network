@@ -40,10 +40,10 @@ Separate Stream
 Combined Stream S: (VGG16 + LSTM) + T: (DenseNet121 + LSTM)
 | Late Fusion Methods | UCF101 (%) | NTU-RGB 60 (%)| 
 |:-------------------:|:--------:|:--------:|
-|     Averaged Sum        |   -  |   86.15  |
-|    Ridge Regression     |      |   86.17  |
-| Multinomial Naive Bayes |      |   86.10  |
-| Majority Voting for these 3 Late fusion models |  |  |
+|     Averaged Sum        |   -   |   86.15  |
+|    Ridge Regression     |       |   86.17  |
+| Multinomial Naive Bayes |       |   86.10  |
+| Majority Voting for these 3 Late fusion models |  | 86.21 |
 
 Intermediate Fusion (Fusion inside Model) ()
 | Intermediate Fusion Methods |   UCF101 (%)  | NTU-RGB 60 (%)| 
