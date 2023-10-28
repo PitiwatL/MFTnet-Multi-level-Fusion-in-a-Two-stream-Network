@@ -29,25 +29,32 @@ Should prepare softmax scores in this formation before performing late fusion:
 Separate Stream
 <p align="center"> 
   
-|   Model   | Accuracy (%) | 
-|:---------:|:------------:|
-| Spatial Stream  (VGG16 + LSTM)         | 88.51  | 
-| Temporal Stream (DenseNet121 + LSTM)   | 87.27  |  
+|                 Model                   |  UCF101 (%)  | NTU-RGB 60 (%)| 
+|:---------------------------------------:|:------------:|:-------------:|
+| Spatial Stream  (VGG16 + LSTM)          |    88.51     |    72.04      |
+| Temporal Stream (DenseNet121 + LSTM)    |    87.27     |    83.30      |
 </p>
 
 Combined Stream S: (VGG16 + LSTM) + T: (DenseNet121 + LSTM)
-| Late Fusion Methods | Accuracy (%) | 
-|:-----------:|:--------:|
-| Averaged Sum | - | 
-| Ridge Regression |  |
-| Multinomial Naive Bayes |  |
-| Majority Voting for these 3 Late fusion models |  |
+| Late Fusion Methods | UCF101 (%) | NTU-RGB 60 (%)| 
+|:-------------------:|:--------:|:--------:|
+|     Averaged Sum        |   -  |   86.15  |
+|    Ridge Regression     |      |   86.17  |
+| Multinomial Naive Bayes |      |   86.10  |
+| Majority Voting for these 3 Late fusion models |  |  |
 
 Intermediate Fusion (Fusion inside Model) ()
-| Intermediate Fusion Methods | Accuracy (%)  | 
-|:---------------------------:|-------------|
-| Sum Fusion                  |  -  |       | 
-| Max Fusion                  |     |       |
-| Concatenation Fusion        |     |       |
-| Convolution Fusion          |   88.69     |
+| Intermediate Fusion Methods | Accuracy (%)  | NTU-RGB 60 (%)| 
+|:---------------------------:|:-------------:|:-------------:|
+| Sum Fusion                  |  -            |     75.74    | 
+| Max Fusion                  |               |     73.93    |
+| Concatenation Fusion        |               |     74.85    |
+| Convolution Fusion          |    88.69      |     77.48    |
 
+Our MFTnet 
+| Intermediate Fusion Methods | Accuracy (%)  | NTU-RGB 60 (%)| 
+|:---------------------------:|:-------------:|:-------------:|
+| Sum Fusion                  |    -          |         | 
+| Max Fusion                  |               |         |
+| Concatenation Fusion        |               |         |
+| Convolution Fusion          |    -          |         |
