@@ -8,6 +8,8 @@ Optical Flow Videos <br><br>
 </p>
   
 ## Overall Architecture of the MFTnet
+The late fusion models consist of 3 methods, which are averaged sum, ridge regression, and multinomial naive bayes.
+
 <p align="center"> 
   <img src = "./assets/OverallNet.jpg" width = 600>
 </p>
