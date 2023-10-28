@@ -46,7 +46,7 @@ Combined Stream S: (VGG16 + LSTM) + T: (DenseNet121 + LSTM)
 | Majority Voting for these 3 Late fusion models |  |  |
 
 Intermediate Fusion (Fusion inside Model) ()
-| Intermediate Fusion Methods | Accuracy (%)  | NTU-RGB 60 (%)| 
+| Intermediate Fusion Methods |   UCF101 (%)  | NTU-RGB 60 (%)| 
 |:---------------------------:|:-------------:|:-------------:|
 | Sum Fusion                  |  -            |     75.74    | 
 | Max Fusion                  |               |     73.93    |
@@ -54,9 +54,9 @@ Intermediate Fusion (Fusion inside Model) ()
 | Convolution Fusion          |    88.69      |     77.48    |
 
 Our MFTnet 
-| Intermediate Fusion Methods | Accuracy (%)  | NTU-RGB 60 (%)| 
+| Intermediate Fusion Methods |   UCF101 (%)  | NTU-RGB 60 (%)| 
 |:---------------------------:|:-------------:|:-------------:|
-| Sum Fusion                  |    -          |         | 
-| Max Fusion                  |               |         |
-| Concatenation Fusion        |               |         |
-| Convolution Fusion          |    -          |         |
+| Sum Fusion                  |    -          |               | 
+| Max Fusion                  |               |               |
+| Concatenation Fusion        |               |               |
+| Convolution Fusion          |    -          |               |
