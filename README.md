@@ -36,5 +36,5 @@ Intermediate Fusion (Fusion inside Model) ()
 | Sum Fusion                  |  -  |       | 
 | Max Fusion                  |     |       |
 | Concatenation Fusion        |     |       |
-| Convolution Fusion          |     |       |
+| Convolution Fusion          |   88.69     |
 
