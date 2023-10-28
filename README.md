@@ -12,7 +12,20 @@ Optical Flow Videos <br><br>
   <img src = "./assets/OverallNet.jpg" width = 600>
 </p>
 
-## Results
+## Evaluation
+Should prepare softmax scores in this formation before performing late fusion:
+```Shell
+├── SoftMaxScores
+    ├── Spatial
+        ├── train
+        ├── test
+    ├── OpticalFlow
+        ├── train
+        ├── test
+    ├── IntermediateFusion
+        ├── train
+        ├── test
+```
 Separate Stream
 <p align="center"> 
   
