@@ -44,8 +44,8 @@ model = model.to(device)
 model = nn.DataParallel(model)
 
 criterion = nn.CrossEntropyLoss()
-optimizer = torch.optim.SGD(model.parameters(), lr= 0.001)
-scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, factor=0.3, 
+optimizer = torch.optim.SGD(model.parameters(), lr= 0.002)
+scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, factor=0.6, 
                                      patience=3, min_lr= 1 * 1e-6, verbose = True)
 
 ########################
@@ -58,7 +58,7 @@ epochs = 200
 
 val_loss_his = []
 train_loss_his = []
-count = 0
+count = 1
 for eph in range(epochs):
     loss_epoch_train = []
     loss_epoch_val = []
