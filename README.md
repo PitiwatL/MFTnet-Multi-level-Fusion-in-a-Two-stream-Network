@@ -1,7 +1,9 @@
 # MFTnet
-The explanation is during in preparation....
-Let's us denote **S** to be spacial stream, **T** to be temporal stream, **IF** to be intermedaite fusion, and **LF** to be late fusion.
-Optical Flow Videos <br><br>
+<p>
+  The explanation is during in preparation....  <br />
+  Let's us denote <b> S </b> to be spacial stream, <b> T </b>b> to be temporal stream, <b> IF </b> to be intermedaite fusion, and <b> LF </b>  to be late fusion. <br />
+  Optical Flow Videos <br />
+</p>
 <p align="center">  
   <img src = "./assets/rgb_makeup.gif" width = 250>
   <img src = "./assets/makeup_opt.gif" width = 250>
@@ -44,7 +46,7 @@ Combined Stream S: (VGG16 + LSTM) + T: (DenseNet121 + LSTM)
 |     Averaged Sum        |   -   |   86.15  |
 |    Ridge Regression     |       |   86.17  |
 | Multinomial Naive Bayes |       |   86.10  |
-| Majority Voting for these 3 Late fusion models |  | 86.21 |
+| Majority Voting for these 3 Late fusion models |    | 86.21 |
 
 <p align="center"> 
   <img src = "./assets/IntermediateFusion.jpg" width = 600>
