@@ -1,5 +1,6 @@
 # MFTnet
 The explanation is during in preparation....
+Let's us denote **S** to be spacial stream, **T** to be temporal stream, **IF** to be intermedaite fusion, and **LF** to be late fusion.
 Optical Flow Videos <br><br>
 <p align="center">  
   <img src = "./assets/rgb_makeup.gif" width = 250>
@@ -62,9 +63,10 @@ Our MFTnet
   <img src = "./assets/ALL_architecture.jpg" width = 600>
 </p>
 
-| Intermediate Fusion Methods |   UCF101 (%)  | NTU-RGB 60 (%)| 
-|:---------------------------:|:-------------:|:-------------:|
-| Sum Fusion                  |    -          |               | 
-| Max Fusion                  |               |               |
-| Concatenation Fusion        |               |               |
-| Convolution Fusion          |    -          |               |
+|         Models            |   UCF101 (%)  | NTU-RGB 60 (%)| 
+|:-------------------------:|:-------------:|:-------------:|
+| VGG16 + LSTM (S)          |    -          |     72.04     | 
+| DenseNet121 + LSTM (T)    |               |     83.30     |
+| Two-Stream with IF        |               |     85.25     |
+| Two-Stream with LF        |    -          |     86.15     |
+| **MFTnet (Ours)**         |    -          |    **87.93**  |
