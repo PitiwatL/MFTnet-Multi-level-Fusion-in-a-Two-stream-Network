@@ -14,12 +14,12 @@ from Feeder.transform import train_transform
 class VideoDataset(Dataset):
     def __init__(self, data_spatial,  data_optical, labels, transform = train_transform, 
                  num_sec_frame = 10, mode = 'Spatial'):
-        self.data_spatial = data_spatial
-        self.data_optical = data_optical
-        self.labels    = labels
-        self.transform = train_transform
-        self.mode      = mode
-        self.numsec    = num_sec_frame
+                 self.data_spatial = data_spatial
+                 self.data_optical = data_optical
+                 self.labels    = labels
+                 self.transform = train_transform
+                 self.mode      = mode
+                 self.numsec    = num_sec_frame
         
     def __len__(self):
         if self.mode == 'Spatial' :
