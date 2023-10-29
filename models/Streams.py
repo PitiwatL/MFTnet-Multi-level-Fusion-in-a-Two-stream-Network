@@ -57,7 +57,7 @@ class OpticalFlowStream(nn.Module):
     
 class SpatialStream(nn.Module):
     def __init__(self, hidden_unit, dropout_rate = 0.2):
-        super(OpticalFlowStream, self).__init__()
+        super(SpatialStream, self).__init__()
         self.hidden_dim = hidden_unit
         self.cf1 = nn.Linear(hidden_unit, 256)
         self.cf2 = nn.Linear(256, 128)
