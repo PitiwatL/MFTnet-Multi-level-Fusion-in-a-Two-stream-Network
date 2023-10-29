@@ -1,7 +1,7 @@
 # MFTnet
 <p>
   The explanation is during in preparation....  <br />
-  Let's us denote <b> S </b> to be spacial stream, <b> T </b>b> to be temporal stream, <b> IF </b> to be intermedaite fusion, and <b> LF </b>  to be late fusion. <br />
+  Let's us denote <b> S </b> to be spacial stream, <b> T </b> to be temporal stream, <b> IF </b> to be intermedaite fusion, and <b> LF </b>  to be late fusion. <br />
   Optical Flow Videos <br />
 </p>
 <p align="center">  
