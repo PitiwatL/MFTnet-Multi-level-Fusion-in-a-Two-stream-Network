@@ -45,6 +45,10 @@ Combined Stream S: (VGG16 + LSTM) + T: (DenseNet121 + LSTM)
 | Multinomial Naive Bayes |       |   86.10  |
 | Majority Voting for these 3 Late fusion models |  | 86.21 |
 
+<p align="center"> 
+  <img src = "./assets/IntermediateFusion.jpg" width = 600>
+</p>
+
 Intermediate Fusion (Fusion inside Model) ()
 | Intermediate Fusion Methods |   UCF101 (%)  | NTU-RGB 60 (%)| 
 |:---------------------------:|:-------------:|:-------------:|
@@ -54,6 +58,10 @@ Intermediate Fusion (Fusion inside Model) ()
 | Convolution Fusion          |    88.69      |     77.48    |
 
 Our MFTnet 
+<p align="center"> 
+  <img src = "./assets/ALL_architecture.jpg" width = 600>
+</p>
+
 | Intermediate Fusion Methods |   UCF101 (%)  | NTU-RGB 60 (%)| 
 |:---------------------------:|:-------------:|:-------------:|
 | Sum Fusion                  |    -          |               | 
