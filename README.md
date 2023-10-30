@@ -2,7 +2,7 @@
 <p>
   The explanation is during in preparation....  <br />
   Let's us denote <b> S </b> to be a spacial stream, <b> T </b> to be a temporal stream, <b> IF </b> to be an intermedaite fusion module, and <b> LF </b>  to be a late fusion module. <br />
-  Optical Flow Videos <br />
+  These videos below show the videos of RGB videos, optical flow videos, and lastly inverted optical flow videos in grey scales. <br />
 </p>
 <p align="center">  
   <img src = "./assets/rgb_makeup.gif" width = 250>
