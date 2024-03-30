@@ -34,10 +34,15 @@ Should prepare softmax scores in this formation before performing late fusion:
 Separate Stream
 <p align="center"> 
   
-|                 Model                   |  UCF101 (%)  | NTU-RGB 60 (%)| 
-|:---------------------------------------:|:------------:|:-------------:|
-| Spatial Stream  (VGG16 + LSTM)          |    88.51     |    72.04      |
-| Temporal Stream (DenseNet121 + LSTM)    |    87.27     |    83.30      |
+|                 Model                   | Spatial Stream (%)| Spatial Stream (%)| 
+|:---------------------------------------:|:-----------------:|:-----------------:|
+| VGG16                                   |       73.38       |    70.57          |
+| DenseNet121                             |       72.68       |    72.23          |
+| ResNet18                                |       83.39       |    80.06          |
+| EfficientNetB7                          |       87.97       |    84.52          |
+| Swin-Transformer-B                      |       76.29       |    75.52          |
+| ViT-B-Patch16                           |       71.07       |    65.40          |
+
 </p>
 
 Combined Stream S: (VGG16 + LSTM) + T: (DenseNet121 + LSTM)
