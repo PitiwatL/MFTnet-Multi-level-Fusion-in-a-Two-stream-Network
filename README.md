@@ -1,4 +1,4 @@
-# MFTnet
+# MLFnet
 <p>
   The explanation is during in preparation....  <br />
   Let's us denote <b> S </b> to be a spacial stream, <b> T </b> to be a temporal stream, <b> IF </b> to be an intermedaite fusion module, and <b> LF </b>  to be a late fusion module. <br />
