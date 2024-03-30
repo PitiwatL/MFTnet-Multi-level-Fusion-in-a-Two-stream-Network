@@ -58,12 +58,12 @@ Combined Stream S: (VGG16 + LSTM) + T: (DenseNet121 + LSTM)
 </p>
 
 Intermediate Fusion (Fusion inside Model) ()
-| Intermediate Fusion Methods |   UCF101 (%)  | NTU-RGB 60 (%)| 
-|:---------------------------:|:-------------:|:-------------:|
-| Sum Fusion                  |  -            |     75.74    | 
-| Max Fusion                  |               |     73.93    |
-| Concatenation Fusion        |               |     74.85    |
-| Convolution Fusion          |    88.69      |     77.48    |
+| Intermediate Fusion Methods | EFFB7(S,T)(4) |  EFFB7(S,T)(5) |  EFFB7(S,T)(6)|  EFFB7(S,T)(7)  | 
+|:---------------------------:|:-------------:| :-------------:|:-------------:|:---------------:|
+| Sum Fusion                  |      82.03    |       85.20    |      87.69    |      85.89    | 
+| Max Fusion                  |      86.59    |       86.56    |      86.93    |      84.38    | 
+| Concatenation Fusion        |      83.73    |       85.31    |  **85.20**    |      84.33    | 
+| Convolution Fusion          |      83.93    |       86.14    |  **88.46**    |      85.95    | 
 
 Our MFTnet 
 <p align="center"> 
