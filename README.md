@@ -16,7 +16,7 @@ Image and Optical Flow Patches are prepared
   <img src = "./assets/Preprocess.png" width = 500>
 </p>
 
-## Overall Architecture of the MFTnet
+## Overall Architecture of the MLFnet
 The late fusion models consist of 3 methods, which are averaged sum, ridge regression, and multinomial naive bayes.
 
 <p align="center"> 
