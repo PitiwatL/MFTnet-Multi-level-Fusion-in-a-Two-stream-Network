@@ -9,7 +9,9 @@
   <img src = "./assets/makeup_opt.gif" width = 250>
   <img src = "./assets/makeup_inverted_opt.gif" width = 250>
 </p>
-  
+
+## Data Preprocessing
+
 ## Overall Architecture of the MFTnet
 The late fusion models consist of 3 methods, which are averaged sum, ridge regression, and multinomial naive bayes.
 
