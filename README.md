@@ -14,7 +14,7 @@
 The late fusion models consist of 3 methods, which are averaged sum, ridge regression, and multinomial naive bayes.
 
 <p align="center"> 
-  <img src = "./assets/Picture1.jpg" width = 600>
+  <img src = "./assets/Picture1.png" width = 600>
 </p>
 
 ## Evaluation
