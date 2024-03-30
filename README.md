@@ -13,7 +13,7 @@
 ## Data Preprocessing
 Image and Optical Flow Patches are prepared 
 <p align="center"> 
-  <img src = "./assets/Preprocess.png" width = 500>
+  <img src = "./assets/Preprocess..png" width = 500>
 </p>
 
 ## Overall Architecture of the MFTnet
