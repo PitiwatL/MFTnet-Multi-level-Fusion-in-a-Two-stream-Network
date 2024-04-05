@@ -51,13 +51,6 @@ Separate Stream
 
 </p>
 
-Combined Stream S: (VGG16 + LSTM) + T: (DenseNet121 + LSTM)
-| Late Fusion Methods | UCF101 (%) | NTU-RGB 60 (%)| 
-|:-------------------:|:--------:|:--------:|
-|     Averaged Sum        |   -   |   86.15  |
-|    Ridge Regression     |       |   86.17  |
-| Multinomial Naive Bayes |       |   86.10  |
-| Majority Voting for these 3 Late fusion models |    | 86.21 |
 
 <p align="center"> 
   <img src = "./assets/IntermediateFusion.jpg" width = 600>
@@ -76,10 +69,10 @@ Our MFTnet
   <img src = "./assets/ALL_architecture.jpg" width = 600>
 </p>
 
-|         Models            |   UCF101 (%)  | NTU-RGB 60 (%)| 
-|:-------------------------:|:-------------:|:-------------:|
-| VGG16 + LSTM (S)          |    -          |     72.04     | 
-| DenseNet121 + LSTM (T)    |               |     83.30     |
-| Two-Stream with IF        |               |     85.25     |
-| Two-Stream with LF        |    -          |     86.15     |
-| **MFTnet (Ours)**         |    -          |    **87.93**  |
+|         Models            | NTU-RGB 60 (%)| 
+|:-------------------------:|:-------------:|
+| VGG16 + LSTM (S)          |     72.04     | 
+| DenseNet121 + LSTM (T)    |     83.30     |
+| Two-Stream with IF        |     85.25     |
+| Two-Stream with LF        |     86.15     |
+| **MFTnet (Ours)**         |    **87.93**  |
